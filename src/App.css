@@ -1,0 +1,36 @@
+.textArea {
+  display: block;
+  width: 60%;
+  height: 200px;
+  resize: none;
+  margin: 1px auto;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.makeChange , .changeColor{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.editingInput {
+  display: block;
+  width: 60%;
+  resize: none;
+  margin: 20px auto;
+}
+.root-2{
+  height: calc(100vh - 50px);
+}
+.root-3  li {
+  color: white;
+}
+
+.root-3 li:hover {
+  font-size: 25px;
+  background-color: black;
+} 
+
+.done {
+  text-decoration: line-through;
+}
