@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 2 Forms</title>
+</head>
+<body>
+    <form action="results.html" method="GET">
+        <div>
+            <label for="name">Name </label>
+            <input type="text" name="name" id="name" placeholder="First Name" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email"  id="email" required>
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone"  id="phone" required>
+        </div>
+        <div>
+            <label for="image">Image</label>
+            <input type="file" name="image"  id="image" required>
+        </div>
+        <div>
+            <label for="date">Birthdate</label>
+            <input type="date" name="date"  id="date"  min="1999-01-01"  required >
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender"  id="male" required >
+        </div>
+        <div>
+            <label for="female">Female</label>
+            <input type="radio" name="gender"  id="female" required >
+        </div>
+        <div>
+        <label for="homepage">Add your homepage:</label>
+        <input type="url" id="homepage" name="homepage">
+        </div>
+
+        <div>
+            <label for="state">State / Province</label>
+            <select id="state">
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbia</option>
+                <option value="MB">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="NT">Northwest Territories</option>
+                <option value="NU">Nunavut</option>
+                <option value="YT">Yukon</option>
+                <option value="YE">Yerevan</option>
+            </select>
+        </div>
+        <div>
+            <label for="city">City</label>
+            <select id="city">
+                <option value="AB">Abovyan</option>
+                <option value="GY">	Gyumri </option>
+                <option value="VA">Vanadzor</option>
+                <option value="VG">	Vagharshapat </option>
+                <option value="YE">Yerevan</option>
+            </select>
+        </div>
+        <div>
+            <label for="country">Country </label>
+            <input type="text" name="country" id="country" required>
+        </div>
+    <button  type="submit"> Submit </button>
+    </form>
+</body>
+</html>

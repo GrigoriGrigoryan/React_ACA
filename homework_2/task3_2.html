@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header class="main-header" id="about-header">
+    <div class="sticky" id="about">
+
+        <div class="header-menu">
+            <span class="logo"> <a class="logo-second" href="task_3.html" > University </a>  </span>
+        </div>
+
+        <div class="header-menu" >
+
+            <nav class="menu">
+                <div class="hamburg">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a>News</a></li>
+                    <li><a>Events</a></li>
+                    <li><a>Academics</a></li>
+                    <li><a>Research</a></li>
+                    <li><a>Health Care</a></li>
+                    <li><a>Campus Life</a></li>
+                    <li><a>Admission</a></li>
+                    <li><a class="about-hover" href="task3_2.html">About</a></li>
+                </ul>
+                <label id="icon">
+                    <i class="fas fa-bars"></i>
+                </label>
+            </nav>
+        </div>
+    </div>
+
+</header>
+<section class="about-section">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero doloribus quia omnis. At facere temporibus quia, a dignissimos nisi beatae, ut enim, exercitationem eius ab eaque error adipisci cum hic.
+    </p>
+</section>
+<script>
+    const hamburger = document.querySelector('.hamburg');
+    const navLinks = document.querySelector('.nav-links');
+    const links = document.querySelectorAll('.nav-links li');
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('open')
+    })
+</script>
+</body>
+</html>
